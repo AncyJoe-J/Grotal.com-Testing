@@ -41,5 +41,8 @@
     "commentInput": "#txtcomment",
     "emailInput": "#txtEmail",
     "passwordInput": "#txtPassword"
+  },
+  "jobs": {
+    "headerIcon": ".gl-header-con > .gl-header-icon"
   }
 }

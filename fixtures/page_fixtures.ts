@@ -60,6 +60,7 @@ import { CourierPage } from '../pages/CourierPage';
 import { AdvertisePage } from '../pages/AdvertisePage';
 import { EducationPage } from '../pages/EducationPage';
 import { ExplorePage } from '../pages/ExplorePage';
+import { JobsPage } from '../pages/JobsPage';
 
 export class PageFixture {
   readonly login: LoginPage;
@@ -70,6 +71,7 @@ export class PageFixture {
   readonly advertise: AdvertisePage;
   readonly education: EducationPage;
   readonly explore: ExplorePage;
+  readonly jobs: JobsPage;
 
   constructor(page: Page) {
     this.login = new LoginPage(page);
@@ -80,6 +82,7 @@ export class PageFixture {
     this.advertise = new AdvertisePage(page);
     this.education = new EducationPage(page);
     this.explore = new ExplorePage(page);
+    this.jobs = new JobsPage(page);
 
   }
 }
