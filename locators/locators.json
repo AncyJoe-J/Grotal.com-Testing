@@ -22,5 +22,10 @@
   "courier": {
     "category": "div:has-text('Courier Services')",
     "resultRow": ".result-row"
+  },
+  "advertise": {
+    "addBusinessLink": "text=Add Your Business",
+    "pdfLink": "text=PDF",
+    "pptLink": "text=PPT"
   }
 }
