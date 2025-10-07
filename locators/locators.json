@@ -27,5 +27,10 @@
     "addBusinessLink": "text=Add Your Business",
     "pdfLink": "text=PDF",
     "pptLink": "text=PPT"
+  },
+  "education": {
+    "headerIcon": ".gl-header-con > .gl-header-icon",
+    "educationLink": "#div_header >> text=Education",
+    "searchInput": "#txt_srctxt"
   }
 }

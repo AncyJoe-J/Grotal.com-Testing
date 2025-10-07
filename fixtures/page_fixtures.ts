@@ -58,6 +58,7 @@ import { GymPage } from '../pages/GymPage';
 import { ToursPage } from '../pages/ToursPage';
 import { CourierPage } from '../pages/CourierPage';
 import { AdvertisePage } from '../pages/AdvertisePage';
+import { EducationPage } from '../pages/EducationPage';
 
 export class PageFixture {
   readonly login: LoginPage;
@@ -66,6 +67,7 @@ export class PageFixture {
   readonly tours: ToursPage;
   readonly courier: CourierPage;
   readonly advertise: AdvertisePage;
+  readonly education: EducationPage;
 
   constructor(page: Page) {
     this.login = new LoginPage(page);
@@ -74,6 +76,7 @@ export class PageFixture {
     this.tours = new ToursPage(page);
     this.courier = new CourierPage(page);
     this.advertise = new AdvertisePage(page);
+    this.education = new EducationPage(page);
 
   }
 }
