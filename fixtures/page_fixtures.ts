@@ -53,6 +53,7 @@
 // export { expect };
 import { test as baseTest, expect, Page } from '@playwright/test';
 import { LoginPage } from '../pages/LoginPage';
+import { CarWashPage } from '../pages/CarWashPage';
 
 export class PageFixture {
   readonly login: LoginPage;
