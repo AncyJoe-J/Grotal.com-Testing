@@ -32,5 +32,14 @@
     "headerIcon": ".gl-header-con > .gl-header-icon",
     "educationLink": "#div_header >> text=Education",
     "searchInput": "#txt_srctxt"
+  },
+   "explore": {
+    "loginBanner": "div:has-text('Login/SignUp Login/SignUp')",
+    "headerIcon": ".gl-header-con > .gl-header-icon",
+    "commentFrame": "#frmAddcomment",
+    "nameInput": "#txtName",
+    "commentInput": "#txtcomment",
+    "emailInput": "#txtEmail",
+    "passwordInput": "#txtPassword"
   }
 }
