@@ -18,5 +18,9 @@
   "tours": {
     "category": "div:has-text('Tours and Travels')",
     "submenuContainer": "#DivCategories > div.gl-cats-submenu._1 > nav"
+  },
+  "courier": {
+    "category": "div:has-text('Courier Services')",
+    "resultRow": ".result-row"
   }
 }
