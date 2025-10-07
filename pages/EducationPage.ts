@@ -17,8 +17,7 @@ export class EducationPage extends BasePage {
  
     await popup.locator(locators.education.searchInput).fill(collegeName);
     await popup.getByRole('button', { name: 'Search' }).click();
-    //  await popup.waitForTimeout(3000);
-//    await popup.waitForSelector('xpath=//*[@id="Div_Main"]');
+    
     await popup.screenshot({ path: screenshotPath, fullPage: true });
     console.log(`📸 Screenshot saved: ${screenshotPath}`);
   }

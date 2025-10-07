@@ -18,7 +18,8 @@
   "homepage": "https://github.com/Renuga-Suresh20/Grotal.com-Testing#readme",
   "devDependencies": {
     "@playwright/test": "^1.56.0",
-    "@types/node": "^24.7.0"
+    "@types/node": "^24.7.0",
+    "allure-playwright": "^3.4.1"
   },
   "directories": {
     "test": "tests"

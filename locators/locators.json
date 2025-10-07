@@ -12,15 +12,15 @@
     "resultsContainer": "#div_main_content > div:nth-child(5)"
   },
   "gym": {
-    "fitnessCategory": "text=Health and Fitness",
-    "submenuList": "#div_leftlinks > ul"
-  },
+  "fitnessCategory": "xpath=//*[@id='DivCategories']/div[21]",
+  "submenuList": "#div_leftlinks > ul"
+},
   "tours": {
-    "category": "div:has-text('Tours and Travels')",
+    "category": "xpath=//*[@id='DivCategories']/div[1]/h4",
     "submenuContainer": "#DivCategories > div.gl-cats-submenu._1 > nav"
   },
   "courier": {
-    "category": "div:has-text('Courier Services')",
+    "categoryXPath": "xpath=//*[@id='DivCategories']/div[31]/h4",
     "resultRow": ".result-row"
   },
   "advertise": {

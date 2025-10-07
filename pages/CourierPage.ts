@@ -9,7 +9,7 @@ export class CourierPage extends BasePage {
 
   async navigateToBulkCourierServices() {
     await this.page.goto('https://www.grotal.com/');
-    await this.page.locator('xpath=//*[@id="DivCategories"]/div[31]/h4').click();
+    await this.page.locator(locators.courier.categoryXPath).click();
     await this.page.getByText('Bulk Courier Services').click();
     await this.page.waitForSelector(locators.courier.resultRow);
   }

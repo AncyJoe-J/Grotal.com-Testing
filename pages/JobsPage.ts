@@ -21,6 +21,6 @@ export class JobsPage extends BasePage {
     }).click();
     const pdfPage = await pdfPopup;
 
-    console.log('✅ PDF view opened successfully');
+    console.log(' PDF view opened successfully');
   }
 }

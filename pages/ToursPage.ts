@@ -9,7 +9,7 @@ export class ToursPage extends BasePage {
  
   async openToursAndTravelsCategory() {
     await this.page.goto('https://www.grotal.com/');
-    await this.page.locator('xpath=//*[@id="DivCategories"]/div[1]/h4').click();
+    await this.page.locator(locators.tours.category).click();
     await this.page.locator(locators.tours.submenuContainer).scrollIntoViewIfNeeded();
   }
  

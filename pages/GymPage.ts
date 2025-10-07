@@ -16,7 +16,7 @@ export class GymPage extends BasePage {
 
     await this.page.goto('https://www.grotal.com/');
 
-    await this.page.locator('//*[@id="DivCategories"]/div[21]').click();
+    await this.page.locator(locators.gym.fitnessCategory).click();
 
     await this.page.getByText('Gyms').click();
 

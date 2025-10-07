@@ -22,7 +22,6 @@ export class CarWashPage extends BasePage {
  
   async extractServiceDetails(): Promise<void> {
     const results = await this.page.locator(locators.carwash.resultsContainer).innerText();
-    console.log('🔧 Car Washing Services in Chennai:\n');
     console.log(results);
   }
 }
