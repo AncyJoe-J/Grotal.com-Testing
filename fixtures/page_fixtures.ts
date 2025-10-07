@@ -55,16 +55,20 @@ import { test as baseTest, expect, Page } from '@playwright/test';
 import { LoginPage } from '../pages/LoginPage';
 import { CarWashPage } from '../pages/CarWashPage';
 import { GymPage } from '../pages/GymPage';
+import { ToursPage } from '../pages/ToursPage';
 
 export class PageFixture {
   readonly login: LoginPage;
   readonly carwash: CarWashPage;
   readonly gym: GymPage;
+  readonly tours: ToursPage;
 
   constructor(page: Page) {
     this.login = new LoginPage(page);
     this.carwash = new CarWashPage(page);
     this.gym = new GymPage(page);
+    this.tours = new ToursPage(page);
+
   }
 }
 

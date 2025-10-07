@@ -15,7 +15,7 @@
     "fitnessCategory": "text=Health and Fitness",
     "submenuList": "#div_leftlinks > ul"
   },
-  "travel": {
+  "tours": {
     "category": "div:has-text('Tours and Travels')",
     "submenuContainer": "#DivCategories > div.gl-cats-submenu._1 > nav"
   }
