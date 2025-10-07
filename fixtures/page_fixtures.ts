@@ -56,9 +56,11 @@ import { LoginPage } from '../pages/LoginPage';
 
 export class PageFixture {
   readonly login: LoginPage;
+  readonly carwash: CarWashPage;
 
   constructor(page: Page) {
     this.login = new LoginPage(page);
+    this.carwash = new CarWashPage(page);
   }
 }
 

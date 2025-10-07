@@ -4,5 +4,11 @@
     "name": "#txtname",
     "email": "#txtemailid",
     "mobile": "#txtmobile"
+  },
+  "carwash": {
+    "cityDropdown": "#txtActCity",
+    "cityInput": "#txtCity",
+    "searchInput": "#txt_srctxt",
+    "resultsContainer": "#div_main_content > div:nth-child(5)"
   }
 }
