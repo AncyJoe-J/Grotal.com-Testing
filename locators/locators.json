@@ -44,5 +44,8 @@
   },
   "jobs": {
     "headerIcon": ".gl-header-con > .gl-header-icon"
+  },
+  "services": {
+    "categoryHeading": "#DivCategories h4"
   }
 }

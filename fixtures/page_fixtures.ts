@@ -61,7 +61,8 @@ import { AdvertisePage } from '../pages/AdvertisePage';
 import { EducationPage } from '../pages/EducationPage';
 import { ExplorePage } from '../pages/ExplorePage';
 import { JobsPage } from '../pages/JobsPage';
-
+import { ServicesPage } from '../pages/ServicesPage';
+ 
 export class PageFixture {
   readonly login: LoginPage;
   readonly carwash: CarWashPage;
@@ -72,6 +73,7 @@ export class PageFixture {
   readonly education: EducationPage;
   readonly explore: ExplorePage;
   readonly jobs: JobsPage;
+  readonly services: ServicesPage;
 
   constructor(page: Page) {
     this.login = new LoginPage(page);
@@ -83,6 +85,7 @@ export class PageFixture {
     this.education = new EducationPage(page);
     this.explore = new ExplorePage(page);
     this.jobs = new JobsPage(page);
+    this.services = new ServicesPage(page);
 
   }
 }
