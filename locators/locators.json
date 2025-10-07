@@ -12,7 +12,7 @@
     "resultsContainer": "#div_main_content > div:nth-child(5)"
   },
   "gym": {
-    "fitnessCategory": "div:has-text('Health and Fitness')",
+    "fitnessCategory": "text=Health and Fitness",
     "submenuList": "#div_leftlinks > ul"
   }
 }
