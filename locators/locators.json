@@ -1,0 +1,8 @@
+{
+  "login": {
+    "signupLink": "#anchrSgnp",
+    "name": "#txtname",
+    "email": "#txtemailid",
+    "mobile": "#txtmobile"
+  }
+}

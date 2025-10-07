@@ -1,0 +1,4 @@
+//GymPage
+export class GymPage{
+    
+}
