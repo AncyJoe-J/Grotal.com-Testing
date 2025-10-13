@@ -18,7 +18,7 @@ export class CourierPage extends BasePage {
     const resultRows = await this.page.locator(locators.courier.resultRow).allInnerTexts();
     const filteredResults = resultRows.filter(text => !text.includes('Sponsored Links'));
 
-    console.log('📦 Bulk Courier Services Results:\n');
+    console.log('Bulk Courier Services Results:\n');
     filteredResults.forEach((text, index) => {
       console.log(`Result ${index + 1}: ${text}`);
       expect(text).toContain('Bulk Courier Services');

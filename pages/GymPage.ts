@@ -36,7 +36,7 @@ export class GymPage extends BasePage {
 
     const items = await this.getGymSubmenuItems();
 
-    console.log('🏋️ Gym Submenu Items:\n');
+    console.log(' Gym Submenu Items:\n');
 
     items.forEach((item, index) => {
 
