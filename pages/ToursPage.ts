@@ -14,6 +14,7 @@ export class ToursPage extends BasePage {
   }
  
   async validateSubmenuItems(expectedItems: string[]) {
+    
     for (const item of expectedItems) {
       await expect(this.page.getByText(item)).toBeVisible();
     }

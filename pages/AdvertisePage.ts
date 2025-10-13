@@ -21,6 +21,6 @@ export class AdvertisePage extends BasePage {
     await this.page.getByRole('link', { name: 'PPT' }).click();
     const download = await downloadPromise;
 
-    console.log(' Download triggered for:', await download.suggestedFilename());
+    console.log(' Download triggered for:', download.suggestedFilename());
   }
 }

@@ -19,6 +19,6 @@ export class EducationPage extends BasePage {
     await popup.getByRole('button', { name: 'Search' }).click();
     
     await popup.screenshot({ path: screenshotPath, fullPage: true });
-    console.log(`📸 Screenshot saved: ${screenshotPath}`);
+    console.log(`Screenshot saved: ${screenshotPath}`);
   }
 }

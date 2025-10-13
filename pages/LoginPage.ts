@@ -17,10 +17,10 @@ export class LoginPage extends BasePage {
     await this.fill(locators.login.name, name);
     await this.fill(locators.login.email, email);
     await this.fill(locators.login.mobile, mobile);
-    await this.page.getByRole('button', { name: 'Create Account' }).click(); // ✅ updated
+    await this.page.getByRole('button', { name: 'Create Account' }).click(); 
   }
 
   async verifyMobileError() {
-    await expect(this.page.getByText('Enter Valid Mobile Number.')).toBeVisible(); // ✅ updated
+    await expect(this.page.getByText('Enter Valid Mobile Number.')).toBeVisible(); 
   }
 }

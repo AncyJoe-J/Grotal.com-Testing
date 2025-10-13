@@ -1,5 +1,5 @@
 import { test } from '../fixtures/page_fixtures';
-import { readCSV } from '../utils/readCSV'; // adjust path if needed
+import { readCSV } from '../utils/readCSV';
 
 const testData = readCSV('data/carwash_data.csv');
 
